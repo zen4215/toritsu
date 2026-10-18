@@ -1,0 +1,63 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+#controls {
+  position: fixed;
+  inset: 0;
+}
+
+#dpad {
+  position: absolute;
+  pointer-events: auto;
+}
+
+.user-button {
+  position: absolute;
+  pointer-events: auto;
+
+  height: 30%;
+  max-height: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  font-size: 20px;
+}
+
+#reset {
+  top: 65%;
+  right: 2%;
+}
+
+#stop {
+  top: 65%;
+  right: 18%;
+}
+
+#tel-common {
+  display: grid;
+  grid-template-columns: 60% 40%;
+
+  height: 50%;
+}
+
+#tel-mobile {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  height: 50%;
+  width: 35%;
+
+  margin-top: -1%;
+  margin-left: 28%;
+}
+
+#tel-pc {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
